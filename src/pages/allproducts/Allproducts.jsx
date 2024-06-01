@@ -25,11 +25,11 @@ function Allproducts() {
 
   const addCart = (product) => {
     dispatch(addToCart(product));
-    toast.success("add to cart");
+    toast.success("Add to Cart");
   };
 
   useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(cartItems));
+    localStorage.setItem("Cart", JSON.stringify(cartItems));
   }, [cartItems]);
   useEffect(() => {
     window.scrollTo(0, 0);
