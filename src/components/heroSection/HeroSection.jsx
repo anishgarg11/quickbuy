@@ -3,9 +3,7 @@ import React from "react";
 function HeroSection() {
   return (
     <div>
-     <video>
-  <source src="https://cdn.dribbble.com/userupload/6323400/file/original-96a7c97ff28388207a3dec7d159d9f8d.mp4" type="video/mp4">
-</video>
+    <img src="https://www.figma.com/design/J8ZwSuZkCr1JWgo0kXgjG7/E-commerce-gradient-illustrations-are-free-and-commercially-available-(Community)?m=dev&node-id=302-2&t=Ki1wHXGsy3nvxOlN-1"
     </div>
   );
 }
